@@ -1,0 +1,46 @@
+# ─── Python Bytecode ────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ─── Virtual Environments ───────────────────────────
+.env
+.venv/
+venv/
+
+# ─── IDE & Editor Files ─────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ─── Logs & Runtime Files ───────────────────────────
+*.log
+*.pid
+
+# ─── Jupyter Notebooks ──────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Python Build Artifacts ─────────────────────────
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ─── LangChain Artifacts ────────────────────────────
+lc_cache/
+langchain_logs/
+
+# ─── Docker (Optional) ──────────────────────────────
+*.dockerfile
+Dockerfile*
+
+# ─── FastAPI / Uvicorn / Local DBs ─────────────────
+*.db
+*.sqlite3
+*.pem
