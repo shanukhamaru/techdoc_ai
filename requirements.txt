@@ -1,0 +1,35 @@
+# Core GenAI Frameworks
+langchain
+langgraph
+langchain-community
+
+# Embeddings (choose one)
+openai  # For OpenAI-based embeddings
+# sentence-transformers  # Optional: for HuggingFace embeddings (uncomment if used)
+
+# Vector Database
+faiss-cpu
+
+# Document formats (PDF, DOCX, Markdown)
+unstructured
+pdfminer.six
+docx2txt
+
+# Web Framework (FastAPI for later)
+fastapi
+uvicorn
+tiktoken
+
+
+# Utility
+python-dotenv
+tqdm
+
+# Optional (for UI or debugging)
+streamlit
+langsmith
+promptfoo
+
+
+sentence-transformers
+huggingface_hub
